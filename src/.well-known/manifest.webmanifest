@@ -5,7 +5,7 @@
   "name": "Libby by OverDrive",
   "short_name": "Libby",
   "description": "IWA for Libby by OverDrive",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "update_manifest_url": "https://github.com/tling0001/libby-iwa/raw/refs/heads/main/update_manifest.json",
   "display": "standalone",
   "display_override": [
