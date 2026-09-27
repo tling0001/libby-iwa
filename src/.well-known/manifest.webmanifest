@@ -1,0 +1,47 @@
+{
+  "id": "/",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Libby by OverDrive",
+  "short_name": "Libby",
+  "description": "IWA for Libby by OverDrive",
+  "version": "1.0.0",
+  "update_manifest_url": "https://github.com/tling0001/libby-iwa/raw/refs/heads/main/update_manifest.json",
+  "display": "standalone",
+  "display_override": [
+    {
+      "display": "unframed",
+      "url_patterns": [
+        {
+          "pathname": "/unframed/*"
+        }
+      ]
+    },
+    "borderless"
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "permissions_policy": {
+    "window-management": [
+      "self"
+    ],
+    "controlled-frame": [
+      "self"
+    ],
+    "fullscreen": [
+      "*"
+    ],
+    "cross-origin-isolated": [
+      "self"
+    ]
+  },
+  "isolated_storage": true,
+  "icons": [
+    {
+      "src": "/icon.png",
+      "type": "image/png",
+      "sizes": "400x400",
+      "purpose": "any"
+    }
+  ]
+}
