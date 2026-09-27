@@ -1,4 +1,4 @@
-# Sora by OverDrive Education Isolated Web App for Chrome
+# Libby by OverDrive Isolated Web App for Chrome
 
 ### Pre-requisites
 
@@ -12,7 +12,7 @@
 *   Navigate to `chrome://iwa-dev/`
 *   Click "Install", then select "Update Manifest"
 *   Paste in the the addresss 
-    `https://github.com/tling0001/sora-iwa/raw/refs/heads/main/update_manifest.json`
+    `https://github.com/tling0001/libby-iwa/raw/refs/heads/main/update_manifest.json`
 *   Click "fetch" and "install"
 
 deno run -A npm:wbn/wbn --dir libby-iwa/src -o unsigned.wbn
